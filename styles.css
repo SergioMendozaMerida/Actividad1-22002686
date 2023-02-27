@@ -1,0 +1,43 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+#resultado{
+    text-align: right;
+    border: 2px solid #0000ff;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 3px;
+}
+
+#actual{
+    text-align: right;
+    border: 2px solid #c0c0c0;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 3px;
+}
+
+.botonCalculadora{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #ffffff;
+    color: #0000ff;
+}
+
+.botonOperaciones{
+    font-size: large;
+    font-style: italic;
+    background-color: #00f0f0;
+}
+
+#operaciones{
+    text-align: right;
+    border: 2px solid #c0c0c0;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 3px;
+}
